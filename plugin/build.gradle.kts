@@ -35,6 +35,7 @@ repositories {
         name = "waterdogpeRepoSnapshots"
         url = uri("https://repo.waterdog.dev/snapshots")
     }
+
     // Nukkit
     maven {
         name = "opencollab-repo-snapshot"
@@ -52,7 +53,7 @@ dependencies {
     annotationProcessor("com.velocitypowered:velocity-api:3.3.0-SNAPSHOT")
     compileOnly("net.md-5:bungeecord-api:1.20-R0.2")
     compileOnly("io.papermc.paper:paper-api:1.20.4-R0.1-SNAPSHOT")
-    implementation("dev.waterdog.waterdogpe:waterdog:2.0.2-SNAPSHOT")
+    compileOnly("dev.waterdog.waterdogpe:waterdog:2.0.2-SNAPSHOT")
     implementation("net.kyori:adventure-platform-bungeecord:4.3.2")
     implementation("cn.nukkit:nukkit:1.0-SNAPSHOT")
     implementation(libs.spark)

@@ -15,7 +15,6 @@ public class PlatformService {
     static {
         PLATFORMS.add(new CustomPlatform());
         PLATFORMS.add(new PaperPlatform());
-        PLATFORMS.add(new CustomPlatform());
         PLATFORMS.add(new WaterfallPlatform());
         PLATFORMS.add(new VelocityPlatform());
         PLATFORMS.add(new MinestomPlatform());

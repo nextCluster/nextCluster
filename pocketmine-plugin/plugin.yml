@@ -1,0 +1,6 @@
+name: NextCluster
+author: nextCluster
+version: 1.0.0-SNAPSHOT
+main: nextcluster\NextClusterPlugin
+api: 5.0.0
+description: The official PocketMine-MP plugin for nextCluster

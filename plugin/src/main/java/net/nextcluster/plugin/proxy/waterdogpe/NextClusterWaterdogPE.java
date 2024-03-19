@@ -29,11 +29,8 @@ import dev.waterdog.waterdogpe.ProxyServer;
 import dev.waterdog.waterdogpe.event.defaults.PlayerDisconnectedEvent;
 import dev.waterdog.waterdogpe.event.defaults.PlayerLoginEvent;
 import dev.waterdog.waterdogpe.plugin.Plugin;
-import net.md_5.bungee.api.chat.TextComponent;
 import net.nextcluster.plugin.proxy.waterdogpe.handler.ServerJoinHandler;
 
-
-@SuppressWarnings("unused")
 public final class NextClusterWaterdogPE extends Plugin {
 
     private WaterdogPEProxy proxy;

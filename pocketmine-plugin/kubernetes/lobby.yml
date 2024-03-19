@@ -1,0 +1,19 @@
+apiVersion: nextcluster.net/v1
+kind: Group
+metadata: # ATTENTION: This metadata cannot be changed after creation!
+  name: lobby
+  namespace: nextcluster
+spec:
+  base:
+    image: 10.99.214.62:5000/lobby:latest
+    environment:
+      - PLATFORM=POCKETMINE
+      - VELOCITY_SECRET=2pOyTL6vI025 # You need to provide the velocity forward secret if you use minestom + velocity
+    ports:
+      - port: 19132
+        protocol: UDP  # ATTENTION: Bedrock servers require UDP
+  maintenance: false
+  minOnline: 1
+  maxOnline: 5
+  maxMemory: 128
+  fallback: true
